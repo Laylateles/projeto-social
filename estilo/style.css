@@ -13,9 +13,25 @@ body {
     background-size: cover;
 }
 
-iframe {
-    display: block;
+#iphone {
+    width: 310px;
+    height: 620px;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 50%;
     margin: auto;
-    background-size: cover;
     position: absolute;
+    background-image: url('../imagens/frame-iphone.png');
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+
+}
+
+iframe {
+    position: relative;
+    top: 80px;
+    left:25px ;
+    width: 260px;
+    height: 470px;
 }
